@@ -1,0 +1,10 @@
+{
+  "generatedAt": null,
+  "timezone": "America/Chicago",
+  "metricLabel": "SRA",
+  "week1Monday": "2026-06-29",
+  "currentWeekNo": 1,
+  "demo": false,
+  "weeks": [{ "weekNo": 1, "label": "Week 1", "start": "2026-06-29", "end": "2026-07-05" }],
+  "pods": []
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pods Win Tracker — Austin</title>
+  <link rel="icon" type="image/svg+xml" href="assets/austin-logo.svg" />
+  <link rel="apple-touch-icon" href="assets/austin-logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <div class="app">
+    <!-- ===== Header ===== -->
+    <header class="site-header">
+      <div class="brand">
+        <img class="brand-logo" src="assets/austin-logo.svg" alt="Pods Win Tracker — Austin, Texas" />
+        <div class="brand-text">
+          <h1>Pods Win Tracker</h1>
+          <p class="tagline">SRA production by pod · Sunrun Approved</p>
+        </div>
+      </div>
+      <div class="refresh">
+        <span class="refresh-dot" id="refreshDot" aria-hidden="true"></span>
+        <div class="refresh-text">
+          <span class="refresh-label">Last refreshed</span>
+          <span class="refresh-clock" id="refreshClock">—</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="demo-banner" id="demoBanner" hidden>
+      Sample data for preview. Live numbers appear automatically once the Apps Script publish runs.
+    </div>
+
+    <!-- ===== Leaderboard ===== -->
+    <section class="leaderboard" id="leaderboard" aria-label="Pod leaderboard"></section>
+
+    <!-- ===== Controls ===== -->
+    <section class="controls" aria-label="Filters">
+      <div class="control week-control">
+        <label class="control-label">Week</label>
+        <div class="week-toggle">
+          <button class="wk-btn" id="weekPrev" aria-label="Previous week">‹</button>
+          <select id="weekSelect" class="select" aria-label="Select week"></select>
+          <button class="wk-btn" id="weekNext" aria-label="Next week">›</button>
+        </div>
+        <span class="week-range" id="weekRange"></span>
+      </div>
+      <div class="control">
+        <label class="control-label" for="podSelect">Pod</label>
+        <select id="podSelect" class="select"><option value="__all__">All pods</option></select>
+      </div>
+      <div class="control">
+        <label class="control-label" for="repSearch">Rep</label>
+        <input id="repSearch" class="select" list="repList" placeholder="All reps — type to filter…" autocomplete="off" />
+        <datalist id="repList"></datalist>
+      </div>
+    </section>
+
+    <!-- ===== Summary strip ===== -->
+    <section class="summary" id="summary" aria-label="Quarter summary"></section>
+
+    <!-- ===== Pod cards ===== -->
+    <main id="podGrid" class="pod-grid" aria-live="polite"></main>
+
+    <footer class="site-footer">
+      <span id="footNote">Pods Win Tracker — Austin</span>
+    </footer>
+  </div>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
