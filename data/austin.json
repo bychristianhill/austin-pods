@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T15:06:48.435Z",
+  "generatedAt": "2026-07-17T16:06:48.006Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -685,7 +685,7 @@
     },
     {
       "name": "MetaPod",
-      "target": 5,
+      "target": 7,
       "weekly": {
         "1": 8,
         "2": 7,
