@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T20:06:49.142Z",
+  "generatedAt": "2026-07-20T21:06:49.233Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -421,7 +421,7 @@
         "1": 7,
         "2": 7,
         "3": 2,
-        "4": 0,
+        "4": 1,
         "5": 0,
         "6": 0,
         "7": 0,
@@ -444,12 +444,12 @@
           "asAssistSRA": 2,
           "asAssistCAP": 1,
           "totalPoints": 0,
-          "totalSRA": 5,
+          "totalSRA": 6,
           "weekly": {
             "1": 2,
             "2": 2,
             "3": 1,
-            "4": 0,
+            "4": 1,
             "5": 0,
             "6": 0,
             "7": 0,
@@ -687,7 +687,7 @@
           }
         }
       ],
-      "seasonTotal": 16
+      "seasonTotal": 17
     },
     {
       "name": "MetaPod",
