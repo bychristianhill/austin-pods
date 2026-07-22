@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T17:06:47.932Z",
+  "generatedAt": "2026-07-22T18:06:48.365Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -172,7 +172,7 @@
       "target": 6,
       "weekly": {
         "1": 4,
-        "2": 8,
+        "2": 7,
         "3": 2,
         "4": 2,
         "5": 0,
@@ -197,10 +197,10 @@
           "asAssistSRA": 3,
           "asAssistCAP": 1,
           "totalPoints": 0,
-          "totalSRA": 8,
+          "totalSRA": 7,
           "weekly": {
             "1": 3,
-            "2": 3,
+            "2": 2,
             "3": 1,
             "4": 1,
             "5": 0,
@@ -412,7 +412,7 @@
           }
         }
       ],
-      "seasonTotal": 16
+      "seasonTotal": 15
     },
     {
       "name": "Inner Circle",
