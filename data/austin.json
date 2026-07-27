@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T03:06:48.517Z",
+  "generatedAt": "2026-07-27T04:06:48.415Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -696,7 +696,7 @@
         "1": 8,
         "2": 7,
         "3": 6,
-        "4": 6,
+        "4": 7,
         "5": 0,
         "6": 0,
         "7": 0,
@@ -719,12 +719,12 @@
           "asAssistSRA": 1,
           "asAssistCAP": 0,
           "totalPoints": 0,
-          "totalSRA": 10,
+          "totalSRA": 11,
           "weekly": {
             "1": 1,
             "2": 4,
             "3": 4,
-            "4": 1,
+            "4": 2,
             "5": 0,
             "6": 0,
             "7": 0,
@@ -990,7 +990,7 @@
           }
         }
       ],
-      "seasonTotal": 27
+      "seasonTotal": 28
     },
     {
       "name": "Pronia",
