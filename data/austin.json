@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T07:06:49.506Z",
+  "generatedAt": "2026-07-29T08:06:49.725Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -46,7 +46,7 @@
         "2": 3,
         "3": 5,
         "4": 8,
-        "5": 0,
+        "5": 1,
         "6": 0,
         "7": 0,
         "8": 0,
@@ -96,13 +96,13 @@
           "asAssistSRA": 0,
           "asAssistCAP": 0,
           "totalPoints": 0,
-          "totalSRA": 5,
+          "totalSRA": 6,
           "weekly": {
             "1": 0,
             "2": 0,
             "3": 2,
             "4": 3,
-            "5": 0,
+            "5": 1,
             "6": 0,
             "7": 0,
             "8": 0,
@@ -171,7 +171,7 @@
           }
         }
       ],
-      "seasonTotal": 19
+      "seasonTotal": 20
     },
     {
       "name": "Ascend",
@@ -181,7 +181,7 @@
         "2": 7,
         "3": 2,
         "4": 7,
-        "5": 2,
+        "5": 3,
         "6": 0,
         "7": 0,
         "8": 0,
@@ -203,13 +203,13 @@
           "asAssistSRA": 3,
           "asAssistCAP": 1,
           "totalPoints": 0,
-          "totalSRA": 9,
+          "totalSRA": 10,
           "weekly": {
             "1": 3,
             "2": 2,
             "3": 1,
             "4": 2,
-            "5": 1,
+            "5": 2,
             "6": 0,
             "7": 0,
             "8": 0,
@@ -418,7 +418,7 @@
           }
         }
       ],
-      "seasonTotal": 22
+      "seasonTotal": 23
     },
     {
       "name": "Inner Circle",
@@ -428,7 +428,7 @@
         "2": 7,
         "3": 2,
         "4": 10,
-        "5": 0,
+        "5": 1,
         "6": 0,
         "7": 0,
         "8": 0,
@@ -534,13 +534,13 @@
           "asAssistSRA": 2,
           "asAssistCAP": 1,
           "totalPoints": 0,
-          "totalSRA": 5,
+          "totalSRA": 6,
           "weekly": {
             "1": 2,
             "2": 1,
             "3": 0,
             "4": 2,
-            "5": 0,
+            "5": 1,
             "6": 0,
             "7": 0,
             "8": 0,
@@ -693,7 +693,7 @@
           }
         }
       ],
-      "seasonTotal": 26
+      "seasonTotal": 27
     },
     {
       "name": "Overwatch",
@@ -1062,7 +1062,7 @@
         "2": 7,
         "3": 6,
         "4": 7,
-        "5": 1,
+        "5": 4,
         "6": 0,
         "7": 0,
         "8": 0,
@@ -1112,13 +1112,13 @@
           "asAssistSRA": 3,
           "asAssistCAP": 2,
           "totalPoints": 0,
-          "totalSRA": 5,
+          "totalSRA": 6,
           "weekly": {
             "1": 3,
             "2": 0,
             "3": 0,
             "4": 1,
-            "5": 1,
+            "5": 2,
             "6": 0,
             "7": 0,
             "8": 0,
@@ -1308,13 +1308,13 @@
           "asAssistSRA": 0,
           "asAssistCAP": 0,
           "totalPoints": 0,
-          "totalSRA": 0,
+          "totalSRA": 1,
           "weekly": {
             "1": 0,
             "2": 0,
             "3": 0,
             "4": 0,
-            "5": 0,
+            "5": 1,
             "6": 0,
             "7": 0,
             "8": 0,
@@ -1336,13 +1336,13 @@
           "asAssistSRA": 0,
           "asAssistCAP": 0,
           "totalPoints": 0,
-          "totalSRA": 2,
+          "totalSRA": 3,
           "weekly": {
             "1": 0,
             "2": 0,
             "3": 1,
             "4": 1,
-            "5": 0,
+            "5": 1,
             "6": 0,
             "7": 0,
             "8": 0,
@@ -1355,7 +1355,7 @@
           }
         }
       ],
-      "seasonTotal": 29
+      "seasonTotal": 32
     },
     {
       "name": "Pronoia",
