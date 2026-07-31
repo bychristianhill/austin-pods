@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T01:06:49.176Z",
+  "generatedAt": "2026-07-31T02:06:48.679Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -428,7 +428,7 @@
         "2": 7,
         "3": 2,
         "4": 10,
-        "5": 3,
+        "5": 4,
         "6": 0,
         "7": 0,
         "8": 0,
@@ -450,13 +450,13 @@
           "asAssistSRA": 2,
           "asAssistCAP": 1,
           "totalPoints": 0,
-          "totalSRA": 8,
+          "totalSRA": 9,
           "weekly": {
             "1": 2,
             "2": 2,
             "3": 1,
             "4": 3,
-            "5": 0,
+            "5": 1,
             "6": 0,
             "7": 0,
             "8": 0,
@@ -693,7 +693,7 @@
           }
         }
       ],
-      "seasonTotal": 29
+      "seasonTotal": 30
     },
     {
       "name": "Overwatch",
