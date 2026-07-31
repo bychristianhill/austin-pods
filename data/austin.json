@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T02:06:48.679Z",
+  "generatedAt": "2026-07-31T03:06:48.883Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -1062,7 +1062,7 @@
         "2": 7,
         "3": 6,
         "4": 7,
-        "5": 5,
+        "5": 6,
         "6": 0,
         "7": 0,
         "8": 0,
@@ -1084,13 +1084,13 @@
           "asAssistSRA": 1,
           "asAssistCAP": 0,
           "totalPoints": 0,
-          "totalSRA": 12,
+          "totalSRA": 13,
           "weekly": {
             "1": 1,
             "2": 4,
             "3": 4,
             "4": 2,
-            "5": 1,
+            "5": 2,
             "6": 0,
             "7": 0,
             "8": 0,
@@ -1355,7 +1355,7 @@
           }
         }
       ],
-      "seasonTotal": 33
+      "seasonTotal": 34
     },
     {
       "name": "Pronoia",
