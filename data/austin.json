@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T21:06:48.695Z",
+  "generatedAt": "2026-07-31T22:06:48.520Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -1365,7 +1365,7 @@
         "2": 2,
         "3": 0,
         "4": 6,
-        "5": 0,
+        "5": 2,
         "6": 0,
         "7": 0,
         "8": 0,
@@ -1499,13 +1499,13 @@
           "asAssistSRA": 0,
           "asAssistCAP": 0,
           "totalPoints": 0,
-          "totalSRA": 0,
+          "totalSRA": 2,
           "weekly": {
             "1": 0,
             "2": 0,
             "3": 0,
             "4": 0,
-            "5": 0,
+            "5": 2,
             "6": 0,
             "7": 0,
             "8": 0,
@@ -1518,7 +1518,7 @@
           }
         }
       ],
-      "seasonTotal": 11
+      "seasonTotal": 13
     }
   ]
 }
