@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-03T04:06:48.836Z",
+  "generatedAt": "2026-08-03T05:06:49.347Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
-  "currentWeekNo": 5,
+  "currentWeekNo": 6,
   "demo": false,
   "weeks": [
     {
@@ -35,6 +35,12 @@
       "label": "Week 5",
       "start": "2026-07-27",
       "end": "2026-08-02"
+    },
+    {
+      "weekNo": 6,
+      "label": "Week 6",
+      "start": "2026-08-03",
+      "end": "2026-08-09"
     }
   ],
   "pods": [
