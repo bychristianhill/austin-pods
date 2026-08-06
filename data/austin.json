@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T23:06:51.296Z",
+  "generatedAt": "2026-08-06T00:06:49.741Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -188,7 +188,7 @@
         "3": 2,
         "4": 7,
         "5": 5,
-        "6": 2,
+        "6": 3,
         "7": 0,
         "8": 0,
         "9": 0,
@@ -237,14 +237,14 @@
           "asAssistSRA": 0,
           "asAssistCAP": 0,
           "totalPoints": 0,
-          "totalSRA": 5,
+          "totalSRA": 6,
           "weekly": {
             "1": 0,
             "2": 3,
             "3": 1,
             "4": 1,
             "5": 0,
-            "6": 0,
+            "6": 1,
             "7": 0,
             "8": 0,
             "9": 0,
@@ -424,7 +424,7 @@
           }
         }
       ],
-      "seasonTotal": 27
+      "seasonTotal": 28
     },
     {
       "name": "Inner Circle",
@@ -435,7 +435,7 @@
         "3": 3,
         "4": 10,
         "5": 8,
-        "6": 6,
+        "6": 7,
         "7": 0,
         "8": 0,
         "9": 0,
@@ -456,14 +456,14 @@
           "asAssistSRA": 2,
           "asAssistCAP": 1,
           "totalPoints": 0,
-          "totalSRA": 10,
+          "totalSRA": 11,
           "weekly": {
             "1": 2,
             "2": 2,
             "3": 1,
             "4": 3,
             "5": 1,
-            "6": 1,
+            "6": 2,
             "7": 0,
             "8": 0,
             "9": 0,
@@ -699,7 +699,7 @@
           }
         }
       ],
-      "seasonTotal": 42
+      "seasonTotal": 43
     },
     {
       "name": "Overwatch",
