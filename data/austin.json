@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T23:06:48.453Z",
+  "generatedAt": "2026-08-07T00:06:50.082Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -53,7 +53,7 @@
         "3": 5,
         "4": 8,
         "5": 1,
-        "6": 0,
+        "6": 1,
         "7": 0,
         "8": 0,
         "9": 0,
@@ -74,14 +74,14 @@
           "asAssistSRA": 2,
           "asAssistCAP": 0,
           "totalPoints": 0,
-          "totalSRA": 11,
+          "totalSRA": 12,
           "weekly": {
             "1": 2,
             "2": 3,
             "3": 2,
             "4": 4,
             "5": 0,
-            "6": 0,
+            "6": 1,
             "7": 0,
             "8": 0,
             "9": 0,
@@ -177,7 +177,7 @@
           }
         }
       ],
-      "seasonTotal": 20
+      "seasonTotal": 21
     },
     {
       "name": "Ascend",
