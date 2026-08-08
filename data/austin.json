@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T15:06:49.501Z",
+  "generatedAt": "2026-08-08T16:06:47.916Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -705,12 +705,12 @@
       "name": "MetaPod",
       "target": 7,
       "weekly": {
-        "1": 8,
-        "2": 7,
+        "1": 9,
+        "2": 9,
         "3": 6,
         "4": 7,
         "5": 6,
-        "6": 5,
+        "6": 6,
         "7": 0,
         "8": 0,
         "9": 0,
@@ -806,23 +806,23 @@
           }
         },
         {
-          "name": "Ismo Gonzales III",
+          "name": "Ismo Gonzalez III",
           "id": "567482",
-          "selfGenSRA": 0,
+          "selfGenSRA": 1,
           "selfGenCAP": 0,
-          "withAssistSRA": 0,
+          "withAssistSRA": 1,
           "withAssistCAP": 0,
-          "asAssistSRA": 0,
+          "asAssistSRA": 1,
           "asAssistCAP": 0,
           "totalPoints": 0,
-          "totalSRA": 0,
+          "totalSRA": 4,
           "weekly": {
-            "1": 0,
-            "2": 0,
+            "1": 1,
+            "2": 2,
             "3": 0,
             "4": 0,
             "5": 0,
-            "6": 0,
+            "6": 1,
             "7": 0,
             "8": 0,
             "9": 0,
@@ -1002,7 +1002,7 @@
           }
         }
       ],
-      "seasonTotal": 39
+      "seasonTotal": 43
     },
     {
       "name": "Pronoia",
