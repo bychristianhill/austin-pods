@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T23:06:48.825Z",
+  "generatedAt": "2026-08-09T00:06:51.099Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -53,7 +53,7 @@
         "3": 5,
         "4": 8,
         "5": 3,
-        "6": 6,
+        "6": 7,
         "7": 0,
         "8": 0,
         "9": 0,
@@ -74,14 +74,14 @@
           "asAssistSRA": 2,
           "asAssistCAP": 0,
           "totalPoints": 0,
-          "totalSRA": 13,
+          "totalSRA": 14,
           "weekly": {
             "1": 2,
             "2": 3,
             "3": 2,
             "4": 4,
             "5": 0,
-            "6": 2,
+            "6": 3,
             "7": 0,
             "8": 0,
             "9": 0,
@@ -177,7 +177,7 @@
           }
         }
       ],
-      "seasonTotal": 29
+      "seasonTotal": 30
     },
     {
       "name": "Ascend",
@@ -188,7 +188,7 @@
         "3": 2,
         "4": 7,
         "5": 5,
-        "6": 5,
+        "6": 6,
         "7": 0,
         "8": 0,
         "9": 0,
@@ -237,14 +237,14 @@
           "asAssistSRA": 0,
           "asAssistCAP": 0,
           "totalPoints": 0,
-          "totalSRA": 6,
+          "totalSRA": 7,
           "weekly": {
             "1": 0,
             "2": 3,
             "3": 1,
             "4": 1,
             "5": 0,
-            "6": 1,
+            "6": 2,
             "7": 0,
             "8": 0,
             "9": 0,
@@ -424,7 +424,7 @@
           }
         }
       ],
-      "seasonTotal": 30
+      "seasonTotal": 31
     },
     {
       "name": "Inner Circle",
@@ -710,7 +710,7 @@
         "3": 6,
         "4": 7,
         "5": 6,
-        "6": 6,
+        "6": 7,
         "7": 0,
         "8": 0,
         "9": 0,
@@ -731,14 +731,14 @@
           "asAssistSRA": 1,
           "asAssistCAP": 0,
           "totalPoints": 0,
-          "totalSRA": 14,
+          "totalSRA": 15,
           "weekly": {
             "1": 1,
             "2": 4,
             "3": 4,
             "4": 2,
             "5": 2,
-            "6": 1,
+            "6": 2,
             "7": 0,
             "8": 0,
             "9": 0,
@@ -1002,7 +1002,7 @@
           }
         }
       ],
-      "seasonTotal": 43
+      "seasonTotal": 44
     },
     {
       "name": "Pronoia",
