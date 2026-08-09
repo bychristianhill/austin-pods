@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T05:06:48.422Z",
+  "generatedAt": "2026-08-09T06:06:48.476Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -188,7 +188,7 @@
         "3": 2,
         "4": 7,
         "5": 5,
-        "6": 6,
+        "6": 7,
         "7": 0,
         "8": 0,
         "9": 0,
@@ -265,14 +265,14 @@
           "asAssistSRA": 1,
           "asAssistCAP": 0,
           "totalPoints": 0,
-          "totalSRA": 8,
+          "totalSRA": 9,
           "weekly": {
             "1": 1,
             "2": 1,
             "3": 0,
             "4": 2,
             "5": 3,
-            "6": 1,
+            "6": 2,
             "7": 0,
             "8": 0,
             "9": 0,
@@ -424,7 +424,7 @@
           }
         }
       ],
-      "seasonTotal": 31
+      "seasonTotal": 32
     },
     {
       "name": "Inner Circle",
@@ -435,7 +435,7 @@
         "3": 3,
         "4": 10,
         "5": 8,
-        "6": 10,
+        "6": 12,
         "7": 0,
         "8": 0,
         "9": 0,
@@ -456,14 +456,14 @@
           "asAssistSRA": 2,
           "asAssistCAP": 1,
           "totalPoints": 0,
-          "totalSRA": 11,
+          "totalSRA": 12,
           "weekly": {
             "1": 2,
             "2": 2,
             "3": 1,
             "4": 3,
             "5": 1,
-            "6": 2,
+            "6": 3,
             "7": 0,
             "8": 0,
             "9": 0,
@@ -568,14 +568,14 @@
           "asAssistSRA": 1,
           "asAssistCAP": 2,
           "totalPoints": 0,
-          "totalSRA": 5,
+          "totalSRA": 6,
           "weekly": {
             "1": 1,
             "2": 0,
             "3": 1,
             "4": 0,
             "5": 0,
-            "6": 3,
+            "6": 4,
             "7": 0,
             "8": 0,
             "9": 0,
@@ -699,7 +699,7 @@
           }
         }
       ],
-      "seasonTotal": 46
+      "seasonTotal": 48
     },
     {
       "name": "MetaPod",
