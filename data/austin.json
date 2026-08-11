@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T05:06:48.280Z",
+  "generatedAt": "2026-08-11T06:06:49.242Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -470,7 +470,7 @@
         "4": 10,
         "5": 8,
         "6": 12,
-        "7": 0,
+        "7": 1,
         "8": 0,
         "9": 0,
         "10": 0,
@@ -490,7 +490,7 @@
           "asAssistSRA": 2,
           "asAssistCAP": 1,
           "totalPoints": 0,
-          "totalSRA": 12,
+          "totalSRA": 13,
           "weekly": {
             "1": 2,
             "2": 2,
@@ -498,7 +498,7 @@
             "4": 3,
             "5": 1,
             "6": 3,
-            "7": 0,
+            "7": 1,
             "8": 0,
             "9": 0,
             "10": 0,
@@ -733,7 +733,7 @@
           }
         }
       ],
-      "seasonTotal": 48
+      "seasonTotal": 49
     },
     {
       "name": "MetaPod",
@@ -745,7 +745,7 @@
         "4": 7,
         "5": 6,
         "6": 7,
-        "7": 0,
+        "7": 1,
         "8": 0,
         "9": 0,
         "10": 0,
@@ -849,7 +849,7 @@
           "asAssistSRA": 1,
           "asAssistCAP": 0,
           "totalPoints": 0,
-          "totalSRA": 4,
+          "totalSRA": 5,
           "weekly": {
             "1": 1,
             "2": 2,
@@ -857,7 +857,7 @@
             "4": 0,
             "5": 0,
             "6": 1,
-            "7": 0,
+            "7": 1,
             "8": 0,
             "9": 0,
             "10": 0,
@@ -1036,7 +1036,7 @@
           }
         }
       ],
-      "seasonTotal": 44
+      "seasonTotal": 45
     },
     {
       "name": "Pronoia",
