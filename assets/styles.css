@@ -118,6 +118,24 @@ body {
 .lb-val { flex: 0 0 auto; color: var(--text-dim); font-variant-numeric: tabular-nums; font-size: 12px; }
 .lb-empty { color: var(--text-faint); font-size: 12.5px; }
 
+/* ---------- Leaderboard: "All N pods" dropdown ---------- */
+.lb-more {
+  margin-top: 10px; background: none; border: none; color: var(--text-dim);
+  font-size: 11.5px; font-weight: 600; cursor: pointer; padding: 7px 0 3px;
+  display: flex; align-items: center; gap: 6px;
+  border-top: 1px solid var(--border-soft); width: 100%;
+}
+.lb-more:hover { color: var(--accent); }
+.lb-more .chev { transition: transform .2s; }
+.lb-more[aria-expanded="true"] .chev { transform: rotate(90deg); }
+.lb-all {
+  list-style: none; margin: 6px 0 0; padding: 0; display: flex; flex-direction: column; gap: 6px;
+  max-height: 260px; overflow-y: auto;
+}
+.lb-all .lb-row { font-size: 12.5px; }
+.lb-rank.rn { background: var(--track); color: var(--text-dim); font-weight: 700; }
+
+
 /* ---------- Controls ---------- */
 .controls {
   display: flex; gap: 18px; flex-wrap: wrap; align-items: flex-end;

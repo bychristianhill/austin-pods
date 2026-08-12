@@ -1,7 +1,7 @@
 /* ============================================================
-   Pods Win Tracker — Dallas  (display only — no calculations)
-   Reads data/dallas.json (a faithful mirror of the "Dallas" tab,
-   published by the Apps Script) and renders it.
+   Pods Win Tracker — Austin  (display only — no calculations)
+   Reads data/austin.json (a faithful mirror of the "Austin PODS"
+   tab, published by the Apps Script) and renders it.
    ============================================================ */
 (() => {
   "use strict";
@@ -118,45 +118,82 @@
   }
 
   // ---------- leaderboard (ranks ALL pods, ignores pod/rep filters) ----------
+  // Remembers which category dropdowns are expanded so they survive re-renders.
+  const lbOpen = new Set();
+
   function renderLeaderboard() {
     const d = state.data, pods = d.pods || [], wk = state.week, cur = d.currentWeekNo;
     if (!pods.length) { $("leaderboard").innerHTML = ""; return; }
 
-    const top = (arr, valFn, fmt) => arr
+    // Full ranking of every pod for a metric (highest first). No slicing —
+    // podium() shows the top 3 and tucks the rest into a dropdown.
+    const rankAll = (valFn, fmt) => pods
       .map((p) => ({ name: p.name, v: valFn(p) }))
-      .filter((x) => x.v > 0)
       .sort((a, b) => b.v - a.v)
-      .slice(0, 3)
-      .map((x) => ({ name: x.name, label: fmt(x.v) }));
+      .map((x) => ({ name: x.name, v: x.v, label: fmt(x.v) }));
 
-    const weekSRA   = top(pods, (p) => podWeeklyValue(p, wk), (v) => `${round(v)} SRA`);
-    const weekWin   = pods
-      .map((p) => ({ name: p.name, margin: podWeeklyValue(p, wk) - podWeekTarget(p, wk), won: podHitWeek(p, wk), val: podWeeklyValue(p, wk) }))
-      .filter((x) => x.won)
-      .sort((a, b) => b.margin - a.margin)
-      .slice(0, 3)
-      .map((x) => ({ name: x.name, label: `${round(x.val)} / ${round(x.val - x.margin)}` }));
-    const qtrWins   = top(pods, (p) => weeksHit(p, cur), (v) => `${v} win${v > 1 ? "s" : ""}`);
-    const qtrSRA    = top(pods, (p) => podQuarterSRA(p, cur), (v) => `${round(v)} SRA`);
+    const weekSRA = rankAll((p) => podWeeklyValue(p, wk), (v) => `${round(v)} SRA`);
+    const weekWin = pods
+      .map((p) => {
+        const val = podWeeklyValue(p, wk), t = podWeekTarget(p, wk);
+        return { name: p.name, v: val - t, won: podHitWeek(p, wk), label: `${round(val)} / ${round(t)}` };
+      })
+      .sort((a, b) => b.v - a.v);
+    const qtrWins = rankAll((p) => weeksHit(p, cur), (v) => `${v} win${v === 1 ? "" : "s"}`);
+    const qtrSRA  = rankAll((p) => podQuarterSRA(p, cur), (v) => `${round(v)} SRA`);
 
     $("leaderboard").innerHTML =
-      podium(`Week ${wk} · Top SRA`, "ti-bolt", weekSRA) +
-      podium(`Week ${wk} · Winning`, "ti-trophy", weekWin) +
-      podium("Quarter · Most Wins", "ti-award", qtrWins) +
-      podium("Quarter · Top SRA", "ti-chart-bar", qtrSRA);
+      podium(`Week ${wk} · Top SRA`, weekSRA, { qualify: (r) => r.v > 0 }) +
+      podium(`Week ${wk} · Winning`, weekWin, { qualify: (r) => r.won }) +
+      podium("Quarter · Most Wins", qtrWins, { qualify: (r) => r.v > 0 }) +
+      podium("Quarter · Top SRA", qtrSRA, { qualify: (r) => r.v > 0 });
+
+    // Wire the "All N pods" dropdown toggles.
+    $("leaderboard").querySelectorAll(".lb-more").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const key = btn.dataset.key;
+        const open = btn.getAttribute("aria-expanded") === "true";
+        btn.setAttribute("aria-expanded", String(!open));
+        const list = btn.nextElementSibling;
+        if (list) list.hidden = open;
+        if (open) lbOpen.delete(key); else lbOpen.add(key);
+      });
+    });
   }
 
-  function podium(title, _icon, rows) {
+  // rows: full ranking [{name, v, label, won?}]. opts.qualify decides who's
+  // eligible for the visible top-3 podium (e.g. only pods that hit target).
+  function podium(title, rows, opts = {}) {
+    const qualify = opts.qualify || (() => true);
     const medals = ["1", "2", "3"];
-    const body = rows.length
-      ? rows.map((r, i) =>
-          `<li class="lb-row">
-             <span class="lb-rank r${i + 1}">${medals[i]}</span>
-             <span class="lb-name" title="${esc(r.name)}">${esc(r.name)}</span>
-             <span class="lb-val">${esc(r.label)}</span>
-           </li>`).join("")
+    const top = rows.filter(qualify).slice(0, 3);
+    const body = top.length
+      ? top.map((r, i) => lbRow(r, medals[i], `r${i + 1}`)).join("")
       : `<li class="lb-empty">No pods yet</li>`;
-    return `<div class="lb-card"><div class="lb-title">${esc(title)}</div><ol class="lb-list">${body}</ol></div>`;
+
+    // Every pod, numbered 1..N, in a collapsible drawer for a full ranking.
+    const isOpen = lbOpen.has(title);
+    const allRows = rows.map((r, i) => lbRow(r, String(i + 1), i < 3 ? `r${i + 1}` : "rn")).join("");
+    const drawer = rows.length
+      ? `<button class="lb-more" data-key="${esc(title)}" aria-expanded="${isOpen}">
+           <span class="chev">▸</span> All ${rows.length} pods
+         </button>
+         <ol class="lb-all"${isOpen ? "" : " hidden"}>${allRows}</ol>`
+      : "";
+
+    return `<div class="lb-card">
+      <div class="lb-title">${esc(title)}</div>
+      <ol class="lb-list">${body}</ol>
+      ${drawer}
+    </div>`;
+  }
+
+  function lbRow(r, rankText, rankCls) {
+    return `<li class="lb-row">
+      <span class="lb-rank ${rankCls}">${esc(rankText)}</span>
+      <span class="lb-name" title="${esc(r.name)}">${esc(r.name)}</span>
+      <span class="lb-val">${esc(r.label)}</span>
+    </li>`;
   }
 
   function renderControls() {
