@@ -81,7 +81,15 @@
   }
 
   const podWeeklyValue = (pod, weekNo) => num(pod.weekly && pod.weekly[String(weekNo)]);
-  const podHitWeek = (pod, weekNo) => podWeeklyValue(pod, weekNo) >= num(pod.target) && num(pod.target) > 0;
+  // Weekly targets can differ week to week; fall back to the pod's single target.
+  function podWeekTarget(pod, weekNo) {
+    const wt = pod.weeklyTargets && pod.weeklyTargets[String(weekNo)];
+    return (wt === undefined || wt === null) ? num(pod.target) : num(wt);
+  }
+  const podHitWeek = (pod, weekNo) => {
+    const t = podWeekTarget(pod, weekNo);
+    return t > 0 && podWeeklyValue(pod, weekNo) >= t;
+  };
 
   function weeksHit(pod, throughWeek) {
     let n = 0;
@@ -123,7 +131,7 @@
 
     const weekSRA   = top(pods, (p) => podWeeklyValue(p, wk), (v) => `${round(v)} SRA`);
     const weekWin   = pods
-      .map((p) => ({ name: p.name, margin: podWeeklyValue(p, wk) - num(p.target), won: podHitWeek(p, wk), val: podWeeklyValue(p, wk) }))
+      .map((p) => ({ name: p.name, margin: podWeeklyValue(p, wk) - podWeekTarget(p, wk), won: podHitWeek(p, wk), val: podWeeklyValue(p, wk) }))
       .filter((x) => x.won)
       .sort((a, b) => b.margin - a.margin)
       .slice(0, 3)
@@ -256,7 +264,7 @@
   function podCard(p, d) {
     const wk = state.week;
     const val = podWeeklyValue(p, wk);
-    const tgt = num(p.target);
+    const tgt = podWeekTarget(p, wk);
     const hit = podHitWeek(p, wk);
     const pct = tgt > 0 ? Math.min(100, Math.round((val / tgt) * 100)) : 0;
     const hits = weeksHit(p, d.currentWeekNo);
