@@ -171,14 +171,19 @@
       ? top.map((r, i) => lbRow(r, medals[i], `r${i + 1}`)).join("")
       : `<li class="lb-empty">No pods yet</li>`;
 
-    // Every pod, numbered 1..N, in a collapsible drawer for a full ranking.
+    // The pods NOT already in the podium, numbered by their true rank, tucked
+    // into a dropdown. Top 3 + dropdown = full ranking, with no repeats.
+    const topNames = new Set(top.map((r) => r.name));
+    const rest = rows
+      .map((r, i) => ({ r, rank: i + 1 }))
+      .filter((x) => !topNames.has(x.r.name));
     const isOpen = lbOpen.has(title);
-    const allRows = rows.map((r, i) => lbRow(r, String(i + 1), i < 3 ? `r${i + 1}` : "rn")).join("");
-    const drawer = rows.length
+    const restRows = rest.map((x) => lbRow(x.r, String(x.rank), x.rank <= 3 ? `r${x.rank}` : "rn")).join("");
+    const drawer = rest.length
       ? `<button class="lb-more" data-key="${esc(title)}" aria-expanded="${isOpen}">
            <span class="chev">▸</span> All ${rows.length} pods
          </button>
-         <ol class="lb-all"${isOpen ? "" : " hidden"}>${allRows}</ol>`
+         <ol class="lb-all"${isOpen ? "" : " hidden"}>${restRows}</ol>`
       : "";
 
     return `<div class="lb-card">

@@ -132,6 +132,7 @@ body {
   list-style: none; margin: 6px 0 0; padding: 0; display: flex; flex-direction: column; gap: 6px;
   max-height: 260px; overflow-y: auto;
 }
+.lb-all[hidden] { display: none; }  /* explicit display above would otherwise defeat [hidden] */
 .lb-all .lb-row { font-size: 12.5px; }
 .lb-rank.rn { background: var(--track); color: var(--text-dim); font-weight: 700; }
 
