@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T05:06:49.518Z",
+  "generatedAt": "2026-08-12T06:06:49.093Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -60,7 +60,7 @@
         "4": 8,
         "5": 3,
         "6": 7,
-        "7": 1,
+        "7": 2,
         "8": 0,
         "9": 0,
         "10": 0,
@@ -80,7 +80,7 @@
           "asAssistSRA": 2,
           "asAssistCAP": 0,
           "totalPoints": 0,
-          "totalSRA": 14,
+          "totalSRA": 15,
           "weekly": {
             "1": 2,
             "2": 3,
@@ -88,7 +88,7 @@
             "4": 4,
             "5": 0,
             "6": 3,
-            "7": 0,
+            "7": 1,
             "8": 0,
             "9": 0,
             "10": 0,
@@ -183,7 +183,7 @@
           }
         }
       ],
-      "seasonTotal": 31
+      "seasonTotal": 32
     },
     {
       "name": "Ascend",
@@ -470,7 +470,7 @@
         "4": 10,
         "5": 8,
         "6": 12,
-        "7": 1,
+        "7": 2,
         "8": 0,
         "9": 0,
         "10": 0,
@@ -490,7 +490,7 @@
           "asAssistSRA": 2,
           "asAssistCAP": 1,
           "totalPoints": 0,
-          "totalSRA": 13,
+          "totalSRA": 14,
           "weekly": {
             "1": 2,
             "2": 2,
@@ -498,7 +498,7 @@
             "4": 3,
             "5": 1,
             "6": 3,
-            "7": 1,
+            "7": 2,
             "8": 0,
             "9": 0,
             "10": 0,
@@ -733,7 +733,7 @@
           }
         }
       ],
-      "seasonTotal": 49
+      "seasonTotal": 50
     },
     {
       "name": "MetaPod",
