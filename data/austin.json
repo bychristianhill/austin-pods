@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T05:06:55.681Z",
+  "generatedAt": "2026-08-17T06:06:49.011Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -82,7 +82,7 @@
         "4": 8,
         "5": 3,
         "6": 7,
-        "7": 6,
+        "7": 7,
         "8": 0,
         "9": 0,
         "10": 0,
@@ -95,7 +95,7 @@
         {
           "name": "Amaziah McCall",
           "id": "539340",
-          "totalSRA": 15,
+          "totalSRA": 16,
           "weekly": {
             "1": 2,
             "2": 3,
@@ -103,7 +103,7 @@
             "4": 4,
             "5": 0,
             "6": 3,
-            "7": 1,
+            "7": 2,
             "8": 0,
             "9": 0,
             "10": 0,
@@ -177,7 +177,7 @@
           }
         }
       ],
-      "seasonTotal": 36
+      "seasonTotal": 37
     },
     {
       "name": "Ascend",
