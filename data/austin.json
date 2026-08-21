@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T17:06:48.973Z",
+  "generatedAt": "2026-08-21T18:06:49.347Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -392,7 +392,7 @@
         "5": 8,
         "6": 12,
         "7": 8,
-        "8": 10,
+        "8": 11,
         "9": 0,
         "10": 0,
         "11": 0,
@@ -488,7 +488,7 @@
         {
           "name": "Zaccarias Medina",
           "id": "558971",
-          "totalSRA": 7,
+          "totalSRA": 8,
           "weekly": {
             "1": 1,
             "2": 0,
@@ -497,7 +497,7 @@
             "5": 0,
             "6": 4,
             "7": 0,
-            "8": 1,
+            "8": 2,
             "9": 0,
             "10": 0,
             "11": 0,
@@ -591,7 +591,7 @@
           }
         }
       ],
-      "seasonTotal": 66
+      "seasonTotal": 67
     },
     {
       "name": "MetaPod",
