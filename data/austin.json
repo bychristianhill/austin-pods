@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T23:06:48.592Z",
+  "generatedAt": "2026-08-23T00:06:48.186Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -83,7 +83,7 @@
         "5": 3,
         "6": 7,
         "7": 7,
-        "8": 4,
+        "8": 5,
         "9": 0,
         "10": 0,
         "11": 0,
@@ -116,7 +116,7 @@
         {
           "name": "Antonio Martinez",
           "id": "527604",
-          "totalSRA": 10,
+          "totalSRA": 11,
           "weekly": {
             "1": 0,
             "2": 0,
@@ -125,7 +125,7 @@
             "5": 1,
             "6": 2,
             "7": 2,
-            "8": 0,
+            "8": 1,
             "9": 0,
             "10": 0,
             "11": 0,
@@ -177,7 +177,7 @@
           }
         }
       ],
-      "seasonTotal": 41
+      "seasonTotal": 42
     },
     {
       "name": "Ascend",
