@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T05:06:48.455Z",
+  "generatedAt": "2026-09-03T06:06:49.379Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -634,7 +634,7 @@
         "7": 6,
         "8": 5,
         "9": 5,
-        "10": 2,
+        "10": 3,
         "11": 0,
         "12": 0,
         "13": 0,
@@ -833,7 +833,7 @@
         {
           "name": "Jamil Cassimy",
           "id": null,
-          "totalSRA": 4,
+          "totalSRA": 5,
           "weekly": {
             "1": 0,
             "2": 0,
@@ -844,7 +844,7 @@
             "7": 0,
             "8": 1,
             "9": 0,
-            "10": 0,
+            "10": 1,
             "11": 0,
             "12": 0,
             "13": 0,
@@ -852,7 +852,7 @@
           }
         }
       ],
-      "seasonTotal": 62
+      "seasonTotal": 63
     },
     {
       "name": "Pronoia",
