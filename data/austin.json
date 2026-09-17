@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T15:07:14.933Z",
+  "generatedAt": "2026-09-17T16:07:00.158Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -876,7 +876,7 @@
         "9": 3,
         "10": 4,
         "11": 4,
-        "12": 2,
+        "12": 3,
         "13": 0,
         "14": 0
       },
@@ -924,9 +924,9 @@
           }
         },
         {
-          "name": "Jonathan Baldridge",
+          "name": "Travis Garrison",
           "id": "0",
-          "totalSRA": 0,
+          "totalSRA": 1,
           "weekly": {
             "1": 0,
             "2": 0,
@@ -939,7 +939,7 @@
             "9": 0,
             "10": 0,
             "11": 0,
-            "12": 0,
+            "12": 1,
             "13": 0,
             "14": 0
           }
@@ -1008,7 +1008,7 @@
           }
         }
       ],
-      "seasonTotal": 38
+      "seasonTotal": 39
     }
   ]
 }
