@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T11:06:55.078Z",
+  "generatedAt": "2026-09-21T12:06:54.271Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -240,7 +240,7 @@
         "9": 8,
         "10": 7,
         "11": 6,
-        "12": 4,
+        "12": 5,
         "13": 0,
         "14": 0
       },
@@ -353,7 +353,7 @@
         {
           "name": "Vince Toarmina",
           "id": "506499",
-          "totalSRA": 1,
+          "totalSRA": 2,
           "weekly": {
             "1": 0,
             "2": 0,
@@ -366,13 +366,13 @@
             "9": 0,
             "10": 0,
             "11": 0,
-            "12": 0,
+            "12": 1,
             "13": 0,
             "14": 0
           }
         }
       ],
-      "seasonTotal": 69
+      "seasonTotal": 70
     },
     {
       "name": "Inner Circle",
