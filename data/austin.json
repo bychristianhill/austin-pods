@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T05:06:48.710Z",
+  "generatedAt": "2026-09-29T06:06:49.267Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -242,7 +242,7 @@
         "11": 6,
         "12": 5,
         "13": 5,
-        "14": 1
+        "14": 2
       },
       "reps": [
         {
@@ -290,7 +290,7 @@
         {
           "name": "Isaiah Boone",
           "id": "476854",
-          "totalSRA": 13,
+          "totalSRA": 14,
           "weekly": {
             "1": 1,
             "2": 1,
@@ -305,7 +305,7 @@
             "11": 1,
             "12": 0,
             "13": 0,
-            "14": 0
+            "14": 1
           }
         },
         {
@@ -372,7 +372,7 @@
           }
         }
       ],
-      "seasonTotal": 76
+      "seasonTotal": 77
     },
     {
       "name": "Inner Circle",
