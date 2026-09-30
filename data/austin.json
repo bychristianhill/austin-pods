@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-29T23:06:49.691Z",
+  "generatedAt": "2026-09-30T00:06:48.376Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -635,7 +635,7 @@
         "11": 3,
         "12": 7,
         "13": 3,
-        "14": 0
+        "14": 1
       },
       "reps": [
         {
@@ -809,7 +809,7 @@
         {
           "name": "Seth Ojeda",
           "id": "518328",
-          "totalSRA": 1,
+          "totalSRA": 2,
           "weekly": {
             "1": 0,
             "2": 0,
@@ -824,7 +824,7 @@
             "11": 0,
             "12": 0,
             "13": 0,
-            "14": 0
+            "14": 1
           }
         },
         {
@@ -849,7 +849,7 @@
           }
         }
       ],
-      "seasonTotal": 82
+      "seasonTotal": 83
     },
     {
       "name": "Pronoia",
