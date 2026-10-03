@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T11:06:52.141Z",
+  "generatedAt": "2026-10-03T12:06:48.874Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -622,7 +622,7 @@
         "14": 10
       },
       "weekly": {
-        "1": 6,
+        "1": 7,
         "2": 9,
         "3": 6,
         "4": 7,
@@ -683,9 +683,9 @@
         {
           "name": "Roderic Hightower Jr",
           "id": "567757",
-          "totalSRA": 7,
+          "totalSRA": 8,
           "weekly": {
-            "1": 1,
+            "1": 2,
             "2": 2,
             "3": 1,
             "4": 1,
@@ -849,7 +849,7 @@
           }
         }
       ],
-      "seasonTotal": 81
+      "seasonTotal": 82
     },
     {
       "name": "Pronoia",
