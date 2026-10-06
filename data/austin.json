@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T05:06:51.278Z",
+  "generatedAt": "2026-10-06T06:06:49.968Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -106,7 +106,7 @@
         "14": 6
       },
       "weekly": {
-        "1": 2,
+        "1": 1,
         "2": 4,
         "3": 5,
         "4": 8,
@@ -125,9 +125,9 @@
         {
           "name": "Amaziah McCall",
           "id": "539340",
-          "totalSRA": 27,
+          "totalSRA": 26,
           "weekly": {
-            "1": 2,
+            "1": 1,
             "2": 3,
             "3": 2,
             "4": 4,
@@ -207,7 +207,7 @@
           }
         }
       ],
-      "seasonTotal": 65
+      "seasonTotal": 64
     },
     {
       "name": "Ascend",
@@ -394,7 +394,7 @@
         "14": 13
       },
       "weekly": {
-        "1": 5,
+        "1": 4,
         "2": 7,
         "3": 3,
         "4": 10,
@@ -413,9 +413,9 @@
         {
           "name": "Russ Gonzalez",
           "id": "558803",
-          "totalSRA": 25,
+          "totalSRA": 24,
           "weekly": {
-            "1": 2,
+            "1": 1,
             "2": 2,
             "3": 1,
             "4": 3,
@@ -476,9 +476,9 @@
         {
           "name": "Kyle Corpuz",
           "id": "558579",
-          "totalSRA": 17,
+          "totalSRA": 18,
           "weekly": {
-            "1": 1,
+            "1": 2,
             "2": 1,
             "3": 0,
             "4": 2,
@@ -497,9 +497,9 @@
         {
           "name": "Zaccarias Medina",
           "id": "558971",
-          "totalSRA": 12,
+          "totalSRA": 11,
           "weekly": {
-            "1": 1,
+            "1": 0,
             "2": 0,
             "3": 1,
             "4": 0,
@@ -600,7 +600,7 @@
           }
         }
       ],
-      "seasonTotal": 100
+      "seasonTotal": 99
     },
     {
       "name": "MetaPod",
@@ -622,7 +622,7 @@
         "14": 10
       },
       "weekly": {
-        "1": 6,
+        "1": 5,
         "2": 9,
         "3": 6,
         "4": 7,
@@ -788,9 +788,9 @@
         {
           "name": "Natalie Rocha",
           "id": "0",
-          "totalSRA": 7,
+          "totalSRA": 6,
           "weekly": {
-            "1": 2,
+            "1": 1,
             "2": 0,
             "3": 0,
             "4": 0,
@@ -849,7 +849,7 @@
           }
         }
       ],
-      "seasonTotal": 81
+      "seasonTotal": 80
     },
     {
       "name": "Pronoia",
