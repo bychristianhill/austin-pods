@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T11:06:49.022Z",
+  "generatedAt": "2026-10-06T12:06:57.047Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -622,7 +622,7 @@
         "14": 10
       },
       "weekly": {
-        "1": 5,
+        "1": 6,
         "2": 9,
         "3": 6,
         "4": 7,
@@ -788,9 +788,9 @@
         {
           "name": "Natalie Rocha",
           "id": "0",
-          "totalSRA": 6,
+          "totalSRA": 7,
           "weekly": {
-            "1": 1,
+            "1": 2,
             "2": 0,
             "3": 0,
             "4": 0,
@@ -849,7 +849,7 @@
           }
         }
       ],
-      "seasonTotal": 80
+      "seasonTotal": 81
     },
     {
       "name": "Pronoia",
