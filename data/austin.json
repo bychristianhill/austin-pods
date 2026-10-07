@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T17:06:49.471Z",
+  "generatedAt": "2026-10-07T18:06:49.128Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -229,7 +229,7 @@
         "14": 7
       },
       "weekly": {
-        "1": 2,
+        "1": 3,
         "2": 7,
         "3": 2,
         "4": 7,
@@ -248,9 +248,9 @@
         {
           "name": "Ryan Curtis",
           "id": "211379",
-          "totalSRA": 20,
+          "totalSRA": 21,
           "weekly": {
-            "1": 1,
+            "1": 2,
             "2": 2,
             "3": 1,
             "4": 2,
@@ -372,7 +372,7 @@
           }
         }
       ],
-      "seasonTotal": 75
+      "seasonTotal": 76
     },
     {
       "name": "Inner Circle",
@@ -622,7 +622,7 @@
         "14": 10
       },
       "weekly": {
-        "1": 2,
+        "1": 3,
         "2": 9,
         "3": 6,
         "4": 7,
@@ -662,9 +662,9 @@
         {
           "name": "Matt Taylor",
           "id": "550507",
-          "totalSRA": 8,
+          "totalSRA": 9,
           "weekly": {
-            "1": 0,
+            "1": 1,
             "2": 0,
             "3": 0,
             "4": 1,
@@ -849,7 +849,7 @@
           }
         }
       ],
-      "seasonTotal": 77
+      "seasonTotal": 78
     },
     {
       "name": "Pronoia",
