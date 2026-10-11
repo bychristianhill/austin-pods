@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T23:06:48.783Z",
+  "generatedAt": "2026-10-11T00:06:48.378Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -623,7 +623,7 @@
       },
       "weekly": {
         "1": 0,
-        "2": 9,
+        "2": 7,
         "3": 6,
         "4": 7,
         "5": 6,
@@ -641,10 +641,10 @@
         {
           "name": "Angelo Talamantes",
           "id": "456238",
-          "totalSRA": 23,
+          "totalSRA": 22,
           "weekly": {
             "1": 0,
-            "2": 4,
+            "2": 3,
             "3": 4,
             "4": 2,
             "5": 2,
@@ -725,10 +725,10 @@
         {
           "name": "Liam Clifford",
           "id": "570012",
-          "totalSRA": 9,
+          "totalSRA": 8,
           "weekly": {
             "1": 0,
-            "2": 1,
+            "2": 0,
             "3": 0,
             "4": 1,
             "5": 0,
@@ -891,7 +891,7 @@
           }
         }
       ],
-      "seasonTotal": 78
+      "seasonTotal": 76
     },
     {
       "name": "Pronoia",
