@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T17:06:48.100Z",
+  "generatedAt": "2026-10-11T18:06:47.932Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -623,7 +623,7 @@
       },
       "weekly": {
         "1": 0,
-        "2": 8,
+        "2": 7,
         "3": 6,
         "4": 7,
         "5": 6,
@@ -641,10 +641,10 @@
         {
           "name": "Angelo Talamantes",
           "id": "456238",
-          "totalSRA": 23,
+          "totalSRA": 22,
           "weekly": {
             "1": 0,
-            "2": 4,
+            "2": 3,
             "3": 4,
             "4": 2,
             "5": 2,
@@ -891,7 +891,7 @@
           }
         }
       ],
-      "seasonTotal": 77
+      "seasonTotal": 76
     },
     {
       "name": "Pronoia",
@@ -914,7 +914,7 @@
       },
       "weekly": {
         "1": 0,
-        "2": 3,
+        "2": 4,
         "3": 0,
         "4": 6,
         "5": 3,
@@ -1037,10 +1037,10 @@
         {
           "name": "Charles Burns",
           "id": null,
-          "totalSRA": 9,
+          "totalSRA": 10,
           "weekly": {
             "1": 0,
-            "2": 1,
+            "2": 2,
             "3": 0,
             "4": 0,
             "5": 1,
@@ -1056,7 +1056,7 @@
           }
         }
       ],
-      "seasonTotal": 42
+      "seasonTotal": 43
     }
   ]
 }
