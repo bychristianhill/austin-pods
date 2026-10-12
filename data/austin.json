@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T11:06:49.582Z",
+  "generatedAt": "2026-10-12T12:06:48.694Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-06-29",
@@ -623,7 +623,7 @@
       },
       "weekly": {
         "1": 0,
-        "2": 8,
+        "2": 9,
         "3": 6,
         "4": 7,
         "5": 6,
@@ -641,10 +641,10 @@
         {
           "name": "Angelo Talamantes",
           "id": "456238",
-          "totalSRA": 22,
+          "totalSRA": 23,
           "weekly": {
             "1": 0,
-            "2": 3,
+            "2": 4,
             "3": 4,
             "4": 2,
             "5": 2,
@@ -891,7 +891,7 @@
           }
         }
       ],
-      "seasonTotal": 77
+      "seasonTotal": 78
     },
     {
       "name": "Pronoia",
