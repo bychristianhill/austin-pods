@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T23:06:49.107Z",
+  "generatedAt": "2026-10-14T00:06:49.447Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-10-05",
@@ -314,7 +314,7 @@
       },
       "weekly": {
         "1": 5,
-        "2": 0,
+        "2": 1,
         "3": 0,
         "4": 0,
         "5": 0,
@@ -351,10 +351,10 @@
         {
           "name": "Darius Martinez",
           "id": "558853",
-          "totalSRA": 1,
+          "totalSRA": 2,
           "weekly": {
             "1": 1,
-            "2": 0,
+            "2": 1,
             "3": 0,
             "4": 0,
             "5": 0,
@@ -509,7 +509,7 @@
           }
         }
       ],
-      "seasonTotal": 5
+      "seasonTotal": 6
     },
     {
       "name": "MetaPod",
