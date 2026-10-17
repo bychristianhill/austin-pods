@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T05:06:49.327Z",
+  "generatedAt": "2026-10-17T06:06:48.673Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-10-05",
@@ -157,7 +157,7 @@
       },
       "weekly": {
         "1": 3,
-        "2": 5,
+        "2": 6,
         "3": 0,
         "4": 0,
         "5": 0,
@@ -234,10 +234,10 @@
         {
           "name": "Amethyst Pohlman",
           "id": "562181",
-          "totalSRA": 1,
+          "totalSRA": 2,
           "weekly": {
             "1": 0,
-            "2": 1,
+            "2": 2,
             "3": 0,
             "4": 0,
             "5": 0,
@@ -292,7 +292,7 @@
           }
         }
       ],
-      "seasonTotal": 8
+      "seasonTotal": 9
     },
     {
       "name": "Inner Circle",
@@ -531,7 +531,7 @@
       },
       "weekly": {
         "1": 6,
-        "2": 3,
+        "2": 4,
         "3": 0,
         "4": 0,
         "5": 0,
@@ -608,10 +608,10 @@
         {
           "name": "Ismo Gonzalez III",
           "id": "567482",
-          "totalSRA": 0,
+          "totalSRA": 1,
           "weekly": {
             "1": 0,
-            "2": 0,
+            "2": 1,
             "3": 0,
             "4": 0,
             "5": 0,
@@ -786,7 +786,7 @@
           }
         }
       ],
-      "seasonTotal": 9
+      "seasonTotal": 10
     },
     {
       "name": "Pronoia",
