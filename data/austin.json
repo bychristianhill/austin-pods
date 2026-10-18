@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T23:06:48.814Z",
+  "generatedAt": "2026-10-18T00:06:49.148Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-10-05",
@@ -157,7 +157,7 @@
       },
       "weekly": {
         "1": 3,
-        "2": 6,
+        "2": 7,
         "3": 0,
         "4": 0,
         "5": 0,
@@ -214,10 +214,10 @@
         {
           "name": "Isaiah Boone",
           "id": "476854",
-          "totalSRA": 1,
+          "totalSRA": 2,
           "weekly": {
             "1": 1,
-            "2": 0,
+            "2": 1,
             "3": 0,
             "4": 0,
             "5": 0,
@@ -292,7 +292,7 @@
           }
         }
       ],
-      "seasonTotal": 9
+      "seasonTotal": 10
     },
     {
       "name": "Inner Circle",
@@ -531,7 +531,7 @@
       },
       "weekly": {
         "1": 6,
-        "2": 4,
+        "2": 5,
         "3": 0,
         "4": 0,
         "5": 0,
@@ -548,10 +548,10 @@
         {
           "name": "Angelo Talamantes",
           "id": "456238",
-          "totalSRA": 5,
+          "totalSRA": 6,
           "weekly": {
             "1": 3,
-            "2": 2,
+            "2": 3,
             "3": 0,
             "4": 0,
             "5": 0,
@@ -786,7 +786,7 @@
           }
         }
       ],
-      "seasonTotal": 10
+      "seasonTotal": 11
     },
     {
       "name": "Pronoia",
