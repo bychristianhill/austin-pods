@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T18:06:51.797Z",
+  "generatedAt": "2026-10-20T19:06:51.914Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-10-05",
@@ -280,6 +280,26 @@
         {
           "name": "Vince Toarmina",
           "id": "506499",
+          "totalSRA": 0,
+          "weekly": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0
+          }
+        },
+        {
+          "name": "Tyenje Onyejekwe",
+          "id": null,
           "totalSRA": 0,
           "weekly": {
             "1": 0,
