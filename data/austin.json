@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T17:06:50.329Z",
+  "generatedAt": "2026-10-23T18:06:49.732Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-10-05",
@@ -578,7 +578,7 @@
       "weekly": {
         "1": 6,
         "2": 5,
-        "3": 5,
+        "3": 6,
         "4": 0,
         "5": 0,
         "6": 0,
@@ -654,11 +654,11 @@
         {
           "name": "Ismo Gonzalez III",
           "id": "567482",
-          "totalSRA": 1,
+          "totalSRA": 2,
           "weekly": {
             "1": 0,
             "2": 1,
-            "3": 0,
+            "3": 1,
             "4": 0,
             "5": 0,
             "6": 0,
@@ -852,7 +852,7 @@
           }
         }
       ],
-      "seasonTotal": 16
+      "seasonTotal": 17
     },
     {
       "name": "Pronoia",
