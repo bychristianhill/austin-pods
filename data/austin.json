@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T05:06:48.885Z",
+  "generatedAt": "2026-10-23T06:06:48.469Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-10-05",
@@ -578,7 +578,7 @@
       "weekly": {
         "1": 6,
         "2": 5,
-        "3": 4,
+        "3": 5,
         "4": 0,
         "5": 0,
         "6": 0,
@@ -814,11 +814,11 @@
         {
           "name": "Diego Paredes",
           "id": null,
-          "totalSRA": 1,
+          "totalSRA": 2,
           "weekly": {
             "1": 1,
             "2": 0,
-            "3": 0,
+            "3": 1,
             "4": 0,
             "5": 0,
             "6": 0,
@@ -852,7 +852,7 @@
           }
         }
       ],
-      "seasonTotal": 15
+      "seasonTotal": 16
     },
     {
       "name": "Pronoia",
