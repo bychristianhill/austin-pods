@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T05:06:48.939Z",
+  "generatedAt": "2026-10-24T06:06:49.546Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-10-05",
@@ -47,7 +47,7 @@
       "weekly": {
         "1": 3,
         "2": 3,
-        "3": 2,
+        "3": 3,
         "4": 0,
         "5": 0,
         "6": 0,
@@ -83,11 +83,11 @@
         {
           "name": "Antonio Martinez",
           "id": "527604",
-          "totalSRA": 1,
+          "totalSRA": 2,
           "weekly": {
             "1": 1,
             "2": 0,
-            "3": 0,
+            "3": 1,
             "4": 0,
             "5": 0,
             "6": 0,
@@ -141,7 +141,7 @@
           }
         }
       ],
-      "seasonTotal": 8
+      "seasonTotal": 9
     },
     {
       "name": "Ascend",
@@ -341,7 +341,7 @@
       "weekly": {
         "1": 5,
         "2": 7,
-        "3": 0,
+        "3": 1,
         "4": 0,
         "5": 0,
         "6": 0,
@@ -357,11 +357,11 @@
         {
           "name": "Russ Gonzalez",
           "id": "558803",
-          "totalSRA": 3,
+          "totalSRA": 4,
           "weekly": {
             "1": 2,
             "2": 1,
-            "3": 0,
+            "3": 1,
             "4": 0,
             "5": 0,
             "6": 0,
@@ -555,7 +555,7 @@
           }
         }
       ],
-      "seasonTotal": 12
+      "seasonTotal": 13
     },
     {
       "name": "MetaPod",
@@ -578,7 +578,7 @@
       "weekly": {
         "1": 6,
         "2": 5,
-        "3": 6,
+        "3": 8,
         "4": 0,
         "5": 0,
         "6": 0,
@@ -654,11 +654,11 @@
         {
           "name": "Ismo Gonzalez III",
           "id": "567482",
-          "totalSRA": 2,
+          "totalSRA": 3,
           "weekly": {
             "1": 0,
             "2": 1,
-            "3": 1,
+            "3": 2,
             "4": 0,
             "5": 0,
             "6": 0,
@@ -814,11 +814,11 @@
         {
           "name": "Diego Paredes",
           "id": null,
-          "totalSRA": 2,
+          "totalSRA": 3,
           "weekly": {
             "1": 1,
             "2": 0,
-            "3": 1,
+            "3": 2,
             "4": 0,
             "5": 0,
             "6": 0,
@@ -852,7 +852,7 @@
           }
         }
       ],
-      "seasonTotal": 17
+      "seasonTotal": 19
     },
     {
       "name": "Pronoia",
@@ -875,7 +875,7 @@
       "weekly": {
         "1": 1,
         "2": 2,
-        "3": 3,
+        "3": 4,
         "4": 0,
         "5": 0,
         "6": 0,
@@ -931,11 +931,11 @@
         {
           "name": "Travis Garrison",
           "id": "0",
-          "totalSRA": 5,
+          "totalSRA": 6,
           "weekly": {
             "1": 1,
             "2": 2,
-            "3": 2,
+            "3": 3,
             "4": 0,
             "5": 0,
             "6": 0,
@@ -1009,7 +1009,7 @@
           }
         }
       ],
-      "seasonTotal": 6
+      "seasonTotal": 7
     }
   ]
 }
