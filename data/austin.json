@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T13:06:49.438Z",
+  "generatedAt": "2026-10-29T14:06:51.351Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-10-05",
@@ -996,6 +996,26 @@
         },
         {
           "name": "Charles Burns",
+          "id": null,
+          "totalSRA": 0,
+          "weekly": {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0
+          }
+        },
+        {
+          "name": "Matthew Sports",
           "id": null,
           "totalSRA": 0,
           "weekly": {
