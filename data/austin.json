@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T23:07:00.936Z",
+  "generatedAt": "2026-10-31T00:06:50.947Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-10-05",
@@ -171,7 +171,7 @@
         "1": 3,
         "2": 7,
         "3": 7,
-        "4": 3,
+        "4": 4,
         "5": 0,
         "6": 0,
         "7": 0,
@@ -226,12 +226,12 @@
         {
           "name": "Isaiah Boone",
           "id": "476854",
-          "totalSRA": 5,
+          "totalSRA": 6,
           "weekly": {
             "1": 1,
             "2": 1,
             "3": 2,
-            "4": 1,
+            "4": 2,
             "5": 0,
             "6": 0,
             "7": 0,
@@ -324,7 +324,7 @@
           }
         }
       ],
-      "seasonTotal": 20
+      "seasonTotal": 21
     },
     {
       "name": "Inner Circle",
@@ -348,7 +348,7 @@
         "1": 5,
         "2": 7,
         "3": 2,
-        "4": 3,
+        "4": 4,
         "5": 0,
         "6": 0,
         "7": 0,
@@ -403,12 +403,12 @@
         {
           "name": "Giovanni Favarato",
           "id": "558759",
-          "totalSRA": 1,
+          "totalSRA": 2,
           "weekly": {
             "1": 0,
             "2": 1,
             "3": 0,
-            "4": 0,
+            "4": 1,
             "5": 0,
             "6": 0,
             "7": 0,
@@ -561,7 +561,7 @@
           }
         }
       ],
-      "seasonTotal": 17
+      "seasonTotal": 18
     },
     {
       "name": "MetaPod",
