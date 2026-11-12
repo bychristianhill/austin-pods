@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T23:06:49.297Z",
+  "generatedAt": "2026-11-12T00:06:48.388Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-10-05",
@@ -185,7 +185,7 @@
         "3": 7,
         "4": 6,
         "5": 5,
-        "6": 1,
+        "6": 2,
         "7": 0,
         "8": 0,
         "9": 0,
@@ -198,14 +198,14 @@
         {
           "name": "Ryan Curtis",
           "id": "211379",
-          "totalSRA": 5,
+          "totalSRA": 6,
           "weekly": {
             "1": 0,
             "2": 2,
             "3": 2,
             "4": 0,
             "5": 1,
-            "6": 0,
+            "6": 1,
             "7": 0,
             "8": 0,
             "9": 0,
@@ -336,7 +336,7 @@
           }
         }
       ],
-      "seasonTotal": 29
+      "seasonTotal": 30
     },
     {
       "name": "Inner Circle",
