@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T23:06:49.553Z",
+  "generatedAt": "2026-11-14T00:06:47.896Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-10-05",
@@ -362,7 +362,7 @@
         "3": 2,
         "4": 4,
         "5": 4,
-        "6": 2,
+        "6": 3,
         "7": 0,
         "8": 0,
         "9": 0,
@@ -475,14 +475,14 @@
         {
           "name": "Roy Cisneros",
           "id": "558632",
-          "totalSRA": 3,
+          "totalSRA": 4,
           "weekly": {
             "1": 1,
             "2": 0,
             "3": 0,
             "4": 1,
             "5": 0,
-            "6": 1,
+            "6": 2,
             "7": 0,
             "8": 0,
             "9": 0,
@@ -573,7 +573,7 @@
           }
         }
       ],
-      "seasonTotal": 24
+      "seasonTotal": 25
     },
     {
       "name": "MetaPod",
