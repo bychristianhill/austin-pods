@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T06:06:47.922Z",
+  "generatedAt": "2026-11-19T07:06:49.264Z",
   "timezone": "America/Chicago",
   "metricLabel": "SRA",
   "week1Monday": "2026-10-05",
@@ -192,7 +192,7 @@
         "4": 6,
         "5": 5,
         "6": 8,
-        "7": 1,
+        "7": 2,
         "8": 0,
         "9": 0,
         "10": 0,
@@ -224,7 +224,7 @@
         {
           "name": "Travis Severs",
           "id": "212219",
-          "totalSRA": 13,
+          "totalSRA": 14,
           "weekly": {
             "1": 2,
             "2": 2,
@@ -232,7 +232,7 @@
             "4": 3,
             "5": 1,
             "6": 2,
-            "7": 0,
+            "7": 1,
             "8": 0,
             "9": 0,
             "10": 0,
@@ -342,7 +342,7 @@
           }
         }
       ],
-      "seasonTotal": 37
+      "seasonTotal": 38
     },
     {
       "name": "Inner Circle",
